@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+.footer{
+    margin-top: 100px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #A9A9A9;
+}
+
+.footer a{
+    text-decoration: none;
+    font-weight: 700;
+    color: #A9A9A9;
+}
+
+.footer a:hover{
+    color: dodgerblue
+}

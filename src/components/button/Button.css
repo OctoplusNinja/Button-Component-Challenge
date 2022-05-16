@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+
+.btn{
+    width: 81px;
+    height: 36px;
+    border: none;
+    border-radius: 6px;
+    background: #E0E0E0;
+    box-shadow: 0px 2px 3px rgba(51, 51, 51, 0.2);
+    cursor: pointer;
+
+    color: #3F3F3F;
+    font-family: 'Noto Sans JP';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+}
+
+.btn:hover{
+    background: #AEAEAE;
+}
+
+.btn svg{
+    margin-left: 5px;
+}
+
+.outline{
+    border: 1px solid #3D5AFE;
+    color: #3D5AFE;
+    background-color: rgba(0, 0, 0, 0);
+    box-shadow: none;
+}
+
+.outline:hover{
+    background: rgba(41, 98, 255, 0.1);
+}
+
+.text{
+    color: #3D5AFE;
+    background-color: rgba(0, 0, 0, 0) !important;
+    box-shadow: none;
+}
+
+.text:hover{
+    background: rgba(41, 98, 255, 0.1);
+}
+
+.disabled{
+    background: #E0E0E0;
+    color: #9E9E9E;
+    cursor: default;
+}
+
+.disabled:hover{
+    background: #E0E0E0;
+    color: #9E9E9E;
+}
+
+.disableShadow{
+    background: #3D5AFE !important;
+    color: white !important;
+}
+
+.primary{
+    background: #2962FF;
+    color: white ;
+    box-shadow: 0px 2px 3px rgba(0, 49, 202, 0.2);
+}
+
+.primary:hover{
+    background: #0039CB;
+    box-shadow: 0px 2px 3px rgba(41, 98, 255, 0.2);
+}
+
+.secondary{
+    background: #455A64;
+    color: white;
+    box-shadow: 0px 2px 3px rgba(69, 90, 100, 0.2);
+}
+
+.secondary:hover{
+    background: #1C313A;
+}
+
+.icon{
+    width: 105px;
+    height: 36px;
+}
+
+.sm{
+    width: 72px;
+    height: 32px;
+}
+
+.md{
+    width: 80px;
+    height: 36px;
+}
+
+.lg{
+    width: 92px;
+    height: 42px;
+}
