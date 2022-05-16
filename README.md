@@ -35,7 +35,7 @@
 
 ## Overview
 
-|               Laptop View                |               Mobile View               |
+|               Desktop View               |               Mobile View               |
 | :--------------------------------------: | :-------------------------------------: |
 | ![images](assets/screenshot_desktop.png) | ![images](assets/screenshot_mobile.png) |
 
