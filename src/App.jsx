@@ -77,6 +77,10 @@ function App() {
           <ButtonText text="&lt;Button color=”secondary” /> &gt;" />
           <Button color="secondary" />
         </div>
+        <div className="btn-container">
+          <ButtonText text="&lt;Button color=danger /> &gt;" />
+          <Button color="danger" />
+        </div>
       </div>
     </div>
   );

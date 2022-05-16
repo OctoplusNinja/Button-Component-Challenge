@@ -16,11 +16,21 @@
 }
 
 .row{
-  margin-bottom: 45px;
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .btn-container{
+  margin-bottom: 45px;
   margin-right: 150px;
+}
+
+@media screen and (max-width: 480px) {
+  .btn-container{
+    margin-bottom: 35px;
+  }
+  .Buttons{
+    margin-left: 50px;
+  }
 }
